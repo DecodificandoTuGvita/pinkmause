@@ -1,0 +1,54 @@
+
+*{
+
+
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    body{
+
+        background-color: #FFFF91;
+        font-family: 'Handjet', cursive;
+        color: black;
+       
+    }
+    #features{
+  border-top: 1px solid #222;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 10px; /* espacio entre las tarjetas */
+}
+
+.container {
+  font-family: "Handjet", cursive;
+  border-radius: 15px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.container .img {
+  position: relative;
+}
+
+.container .texto{
+    
+    padding: 15px;
+    border: 2px solid #222;
+    position: absolute;
+    background-color: #f5f7fa;
+    top: 190px;
+    left: 1fr;
+    right: 1fr;
+    margin: 10px auto;
+    margin-left: 13px;
+    width: 145px;
+    justify-content: center;
+
+}
